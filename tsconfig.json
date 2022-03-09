@@ -11,7 +11,7 @@
     "strict": true,
     "sourceMap": true,
     "outDir": "./dist",
-    "declaration": true,
+    "declaration": true
   },
   "exclude": ["node_modules", "build"],
   "include": ["lib/index.ts"],

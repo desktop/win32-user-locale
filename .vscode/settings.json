@@ -2,15 +2,15 @@
   "typescript.tsdk": "./node_modules/typescript/lib",
   "search.exclude": {
     "**/node_modules": true,
-    "**/dist": true,
+    "**/dist": true
   },
   "files.exclude": {
     "**/.git": true,
-    "**/node_modules": true,
+    "**/node_modules": true
   },
   "editor.tabSize": 2,
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "es5",
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": true
 }
