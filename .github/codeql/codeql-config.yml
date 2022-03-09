@@ -1,0 +1,4 @@
+name: 'win32-user-locale CodeQL config'
+
+paths-ignore:
+  - '.yarn'
