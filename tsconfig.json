@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es6",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "strict": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "declaration": true,
+  },
+  "exclude": ["node_modules", "build"],
+  "include": ["lib/index.ts"],
+  "compileOnSave": false
+}
