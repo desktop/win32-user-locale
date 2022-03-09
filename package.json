@@ -11,7 +11,7 @@
     "test": "jest",
     "prepublishOnly": "yarn build",
     "postpublish": "git push --follow-tags",
-    "prettier": "yarn prettier --write",
+    "prettify": "yarn prettier --write \"./**/*.{ts,tsx,js,json,jsx,scss,html,yaml,yml}\"",
     "check-prettier": "prettier --check \"./**/*.{ts,tsx,js,json,jsx,scss,html,yaml,yml}\"",
     "prebuild-napi-x64": "prebuild -t 4 -r napi -a x64 --strip",
     "prebuild-napi-ia32": "prebuild -t 4 -r napi -a ia32 --strip",
