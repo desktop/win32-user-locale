@@ -1,6 +1,6 @@
 {
   "name": "win32-user-locale",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A thin wrapper on top of GetLocaleInfoEx",
   "main": "dist/lib/index.js",
   "typings": "dist/lib/index.d.ts",
