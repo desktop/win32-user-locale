@@ -16,9 +16,17 @@ jobs:
     permissions:
       security-events: write
 
+    strategy:
+      matrix:
+        node: [16.13.0]
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+
+      - name: Use Node.js ${{ matrix.node }}
+        uses: actions/setup-node@v1 with:
+          node-version: ${{ matrix.node }}
 
       # Initializes the CodeQL tools for scanning.
       - name: Initialize CodeQL
@@ -26,7 +34,9 @@ jobs:
         with:
           config-file: ./.github/codeql/codeql-config.yml
           languages: javascript, cpp
-      - run: |
+          
+      - name: Build
+        run: |
           npm i
           npm run build
 
