@@ -1,4 +1,4 @@
-import { getUserLocale } from '../lib/get-user-locale'
+import { getUserLocale } from '../lib/'
 
 describe('getUserLocale', () => {
   it('works', () => {
