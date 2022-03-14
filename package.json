@@ -1,9 +1,9 @@
 {
   "name": "win32-user-locale",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A thin wrapper on top of GetLocaleInfoEx",
-  "main": "dist/lib/index.js",
-  "typings": "dist/lib/index.d.ts",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "install": "prebuild-install || node-gyp rebuild",
     "build": "node-gyp rebuild && tsc",
