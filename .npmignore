@@ -4,7 +4,6 @@
 docs/
 lib/
 script/
-src/
 test/
 .gitattributes
 .gitignore
@@ -18,4 +17,4 @@ jest.json
 .node-version
 .github
 dist/test
-binding.gyp
+jest.config.js
